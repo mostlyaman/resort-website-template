@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {margin: 0; height: 100%; overflow: hidden;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/home.jpg);
+    background-size: cover;
+}
+
+.card {
+    background-color: rgba(255, 228, 196, 0.9);
+    padding : 40px;
+    border-radius: 30px;
+    margin: 20px 0;
+    border: 1px solid white;
+}
+
+.heading {
+    margin: 20px;
+    text-align: center;
+}
+
+.cvv-text input  {
+    width: 40px;
+}
+
+.expiry input {
+    width: 40px;
+}
+
+.name {
+    align-items: center;
+}
+
+.credit-card-info {
+    display:flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.head {
+    margin: 20px 0;
+
+}
+
+.amount {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name input {
+    padding: 2px 5px;
+    margin: 10px;
+}
+
+.lastname input {
+    padding: 2px 5px;
+    margin: 5px;
+}
+
+.book-now-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.book-now-button:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+
+
+
+

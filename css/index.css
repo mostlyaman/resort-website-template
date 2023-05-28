@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 90vw;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-header {
+    display: flex;
+}
+
+header {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    font-weight: 600;
+    margin: 20px 10px;
+}
+
+body {
+    background-image: url(../assets/home.jpg);
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top:5vh;
+    right:-10vw;
+    transform: scale(0.3);
+    z-index: -1;
+}
+
+.home-img {
+    width: 100vw;
+    position:absolute;
+    top: 0;
+    left:0;
+    overflow: hidden;
+    z-index: -2;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.card {
+    color: white;
+    width: fit-content;
+    font-weight: 400;
+    padding: 5px 50px;
+    margin-left: 5vw;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.head{
+    margin-top: 15vh;
+}
+
+
+.title-big {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align:center;
+}
+
+.title-small {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.grid-4-3 {
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: repeat(1fr, 3);
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+ .book {
+    width: 60vw;
+    margin: 0px 5vw;
+    justify-content: none;
+    margin-top: 10vh;
+
+}
+
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.amenities-card {
+    color: black;
+    font-weight: 400;
+    justify-self: left;
+    padding: 3vh;
+    margin: 50px 5vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 90vw;
+}
+
+.amenities::first-letter{
+    color:green;
+}
+
+.amenities {
+    padding: 5px;
+}
+
+.book > .card {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin:0;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.book > .card:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+}
+

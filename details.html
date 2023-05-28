@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/details.css">
+    <title>Booking Details</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="top-bar">
+            <div class="checkin">
+            <label for="check-in">Check in</label>
+            <input type="date" name="check-in">
+        </div>
+        <div class="checkout">
+            <label for="check-out">Check out</label>
+            <input type="date" name="check-out">
+        </div>
+        <div class="guests">
+            <label for="guests">No of guests</label>
+            <input list="no-of-guests">
+            <datalist id="no-of-guests">
+                <option value="1" >
+                    <option value="2">
+                        <option value="3">
+                <option value="4">
+            </datalist>
+        </div>
+        <div class="availability">
+            <p class="check">Check for availability</p>
+        </div>
+    </div>
+
+    <div class="rooms">
+        <h2 class="heading">Rooms Available</h2>
+        <table>
+            <tr>
+                <td>
+                    Name of the Room
+                </td>
+                <td>
+                    No of Rooms
+                </td>
+                <td>
+                    Cost
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" value = "Hotel Client" disabled>
+                </td>
+                <td>
+                    <input list="no-of-rooms">
+                    <datalist id="no-of-rooms">
+                        <option value="1" >
+                            <option value="2">
+                                <option value="3">
+                                    <option value="4">
+                                    </datalist>
+                </td>
+                <td>
+                    <input type="text" value="$1000" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" value = "Studio" disabled>
+                </td>
+                <td>
+                    <input list="no-of-rooms">
+                    <datalist id="no-of-rooms">
+                        <option value="1" >
+                            <option value="2">
+                                <option value="3">
+                                    <option value="4">
+                    </datalist>
+                </td>
+                <td>
+                    <input type="text" value="$2000" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" value = "Land 1 Br" disabled>
+                </td>
+                <td>
+                    <input list="no-of-rooms">
+                    <datalist id="no-of-rooms">
+                        <option value="1" >
+                            <option value="2">
+                                <option value="3">
+                                    <option value="4">
+                                    </datalist>
+                                </td>
+                <td>
+                    <input type="text" value="$3000" disabled>
+                </td>
+            </tr>
+            
+            
+        </table>
+    </div>
+
+    <div class="payment-div">
+        <p class="payment" onclick="window.location='./payment.html'" >Proceed to Pay</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {margin: 0; height: 100%; overflow: hidden;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/home.jpg);
+    background-size: cover;
+
+}
+
+.room-img {
+    height: 70vh;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 2px solid white;
+    border-right: none;
+
+}
+
+.room-amenities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(246, 194, 126, 0.9);
+    height: 70vh;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 1vw 3vw;
+    margin-top: -5px;
+    border: 2px solid white;
+    border-left: none;
+}
+
+.room-amenities .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-now-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.book-now-button:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::first-letter{
+    color: green;
+}

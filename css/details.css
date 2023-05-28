@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {margin: 0; height: 100%; overflow: hidden;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    align-items: center;
+    background-image: url(../assets/home.jpg);
+    background-size: cover;
+}
+
+.top-bar {
+   display:flex;
+   gap: 10px;
+   margin-bottom: 10vh;
+   background-color:bisque;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   padding: 10px 40px;
+   border: 1px solid brown;
+}
+
+.check {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.check:hover {
+    background-color: brown;
+    text-decoration: underline;
+}
+
+.rooms {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+table > * {
+    margin: 10px;
+}
+
+.payment-div {
+    margin-top: 30px;
+}
+
+.payment{
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color:white
+}
+
+.payment:hover {
+    background-color:violet;
+    cursor: pointer;
+}
+
+tr td {
+    padding: 3px;
+}
